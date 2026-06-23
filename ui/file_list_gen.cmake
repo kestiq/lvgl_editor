@@ -2,6 +2,9 @@ set(LV_EDITOR_PROJECT_SOURCES)
 list(
   APPEND
   LV_EDITOR_PROJECT_SOURCES
+  ${CMAKE_CURRENT_LIST_DIR}/fonts/pf_square_bold_25_data.c
+  ${CMAKE_CURRENT_LIST_DIR}/fonts/pf_square_light_14_data.c
+  ${CMAKE_CURRENT_LIST_DIR}/fonts/pf_square_regular_12_data.c
   ${CMAKE_CURRENT_LIST_DIR}/screens/home/home_gen.c
   ${CMAKE_CURRENT_LIST_DIR}/ui_gen.c
   ${CMAKE_CURRENT_LIST_DIR}/ui.c)

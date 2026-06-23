@@ -55,6 +55,12 @@ extern "C" {
  * Fonts
  *----------------*/
 
+extern lv_font_t * pf_square_bold_25;
+
+extern lv_font_t * pf_square_light_14;
+
+extern lv_font_t * pf_square_regular_12;
+
 /*----------------
  * Images
  *----------------*/

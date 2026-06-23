@@ -1,25 +1,52 @@
 <globals>
-    <api>
-        <!-- Add <enumdefs> here -->
-    </api>
+	<api>
+		<!-- Add <enumdefs> here -->
+	</api>
 
-    <consts>
-        <!-- Add <px>, <int>, <color> etc here -->
-    </consts>
+	<consts>
+		<!-- Add <px>, <int>, <color> etc here -->
+	</consts>
 
-    <styles>
-        <!-- Add <style> tags here -->
-    </styles>
+	<styles>
+		<!-- Add <style> tags here -->
+	</styles>
 
-    <subjects>
-        <!-- Add <int>, <string>, or <float> subjects here -->
-    </subjects>
+	<subjects>
+		<!-- Add <int>, <string>, or <float> subjects here -->
+		<int name="dark_theme_on" min_value="0" max_value="1" value="0" />
+	</subjects>
 
-    <images>
-        <!-- Add <file> or <data> tags here -->
-    </images>
+	<images>
+		<!-- Add <file> or <data> tags here -->
+	</images>
 
-    <fonts>
-        <!-- Add <bin> , <tiny_ttf>, <freetype> tags here -->
-    </fonts>
+	<fonts>
+		<!-- Add <bin> , <tiny_ttf>, <freetype> tags here -->
+		<bin
+			as_file="false"
+			name="pf_square_bold_25"
+			src_path="fonts/PFSquareSansPro-Bold.ttf"
+			size="25"
+			bpp="2"
+			symbols="℃"
+		/>
+
+		<bin
+			as_file="false"
+			name="pf_square_light_14"
+			src_path="fonts/PFSquareSansPro-Light.ttf"
+			size="14"
+			bpp="2"
+			symbols="℃"
+		/>
+
+		<bin
+			as_file="false"
+			name="pf_square_regular_12"
+			src_path="fonts/PFSquareSansPro-Regular.ttf"
+			size="12"
+			bpp="2"
+			symbols="℃"
+		/>
+	</fonts>
 </globals>
