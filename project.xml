@@ -1,1 +1,7 @@
-
+<project lvgl_version="9.5.0">
+  <targets>
+    <target name="waveshare-7-inch">
+      <display width="800" height="480"/>
+    </target>
+  </targets>
+</project>
