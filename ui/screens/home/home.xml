@@ -23,33 +23,45 @@
 			style_pad_row="0"
 			style_pad_column="0"
 			scrollable="false"
+			style_clip_corner="true"
 		>
-			<lv_button style_flex_grow="1" height="100%">
-				<bind_style name="header_btn_normal" subject="dark_theme_on" ref_value="0" selector="default" />
-				<bind_style name="header_btn_focused" subject="dark_theme_on" ref_value="0" selector="focused" />
-				<lv_label text="Home btn" />
-			</lv_button>
+			<lv_button
+				style_flex_grow="1"
+				height="100%"
+				style_bg_color="0xfafafa"
+				style_radius="10"
+				style_shadow_opa="0"
+			/>
 
-			<lv_button style_flex_grow="1" height="100%">
-				<bind_style name="header_btn_normal" subject="dark_theme_on" ref_value="0" />
-				<lv_label text="Theme switch btn" />
-			</lv_button>
+			<lv_button
+				style_flex_grow="1"
+				height="100%"
+				style_bg_color="0xfafafa"
+				style_radius="10"
+				style_shadow_opa="0"
+			/>
 
-			<lv_button style_flex_grow="1" height="100%">
-				<bind_style name="header_btn_normal" subject="dark_theme_on" ref_value="0" />
-				<lv_label text="Settings btn" />
-			</lv_button>
+			<lv_button
+				style_flex_grow="1"
+				height="100%"
+				style_bg_color="0xfafafa"
+				style_radius="10"
+				style_shadow_opa="0"
+			/>
 
-			<lv_obj width="36" height="100%" style_opa="0" />
+			<lv_obj width="36" height="100%" style_opa="0" style_radius="10" style_shadow_opa="0" />
 
 			<lv_slider flex_grow="3" />
 
-			<lv_obj width="36" height="100%" style_opa="0" />
+			<lv_obj width="36" height="100%" style_opa="0" style_radius="10" style_shadow_opa="0" />
 
-			<lv_button style_flex_grow="1" height="100%">
-				<bind_style name="header_btn_normal" subject="dark_theme_on" ref_value="0" />
-				<lv_label text="ELM Status btn" />
-			</lv_button>
+			<lv_button
+				style_flex_grow="1"
+				height="100%"
+				style_bg_color="0xfafafa"
+				style_radius="10"
+				style_shadow_opa="0"
+			/>
 		</lv_obj>
 	</view>
 </screen>
